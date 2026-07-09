@@ -323,6 +323,7 @@ INSERT INTO public.planet VALUES ('Sirius b1', 8, 2, false, 0);
 INSERT INTO public.planet VALUES ('Sirius b2', 9, 2, false, 0);
 INSERT INTO public.planet VALUES ('Betelgeuse A', 10, 3, false, 0);
 INSERT INTO public.planet VALUES ('Betelgeuse B', 11, 3, false, 0);
+INSERT INTO public.planet VALUES ('Uranus', 13, 1, false, 0);
 
 
 --
@@ -362,7 +363,7 @@ SELECT pg_catalog.setval('public.moon_moon_id_seq', 20, true);
 -- Name: planet_planet_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.planet_planet_id_seq', 11, true);
+SELECT pg_catalog.setval('public.planet_planet_id_seq', 13, true);
 
 
 --
